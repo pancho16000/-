@@ -1,6 +1,4 @@
 Вариант 7. Приложение для подсчета количества и вывода слов из текстового файла
-
-
 import re
 #this program get the average number of words per line
 def main():
