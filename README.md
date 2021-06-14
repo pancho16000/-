@@ -15,15 +15,15 @@ def main():
         count = len(re.findall(r'\w+', contents))
         average = count // line
 
-        #display fie contents
+        #display file contents
         print(contents)
         print('there is an average of', average, 'words per sentence')
 
         #close the file
         infile.close()
     except IOError:
-        print('An error oocurred when trying to read ')
-        print('the file',filename )
+        print('An error oocurred when trying to read')
+        print('the file',filename)
 
 #call main
 main()
