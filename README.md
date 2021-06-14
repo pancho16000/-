@@ -1,6 +1,6 @@
 Вариант 7. Приложение для подсчета количества и вывода слов из текстового файла
 import re
-#this program get the average number of words per line
+#this program gets the average number of words per line
 def main():
     try:
         #get name of file
@@ -19,7 +19,7 @@ def main():
         print(contents)
         print('there is an average of', average, 'words per sentence')
 
-        #closse the file
+        #close the file
         infile.close()
     except IOError:
         print('An error oocurred when trying to read ')
